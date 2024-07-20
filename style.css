@@ -22,8 +22,12 @@ img {
     justify-content: center;
 }
 
+#head a {
+    text-decoration: none;
+    color: white;
+}
 
-#try {
+#container {
     display: flex;
     justify-content: space-evenly;
 }
@@ -133,7 +137,7 @@ table {
 }
 
 #projects a {
-    color: #333;
+    color: #9e3030;
     text-decoration: none;
 }
 
@@ -177,14 +181,17 @@ table {
     .navbar ul li {
         padding: 6px;
     }
+
     .navbar ul li a {
         font-size: 15px;
         padding: 5px;
     }
-    #resume{
+
+    #resume {
         padding-top: 50px;
     }
-    #try {
+
+    #container {
         display: flex;
         justify-content: space-evenly;
         background-color: rgb(69, 67, 67, 0.9);
@@ -196,6 +203,6 @@ table {
     #education,
     #projects {
         padding: 30px 22px;
-        font-size: 15px;
+        font-size: 12px;
     }
 }
